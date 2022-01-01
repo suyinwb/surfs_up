@@ -51,18 +51,38 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
+>June Temperature Aggregates
+
+![June Temperature Aggregates](resources/junetempdesc.png)
+
 >June Temperature
 
 ![June Temperature](resources/junetemp.png)
+
+bla bla
+
+>June Precipitation Aggregates
+
+![June Precipitation Aggregates](resources/juneprcpdesc.png)
 
 >June Precipitation
 
 ![June Precipitation](resources/juneprcp.png)
 
+bla bla
+
+
+>December Temperature Aggregates
+
+![December Temperature Aggregates](resources/dectempdesc.png)
 
 >December Temperature
 
 ![December Temperature](resources/dectemp.png)
+
+>December Precipitation Aggregates
+
+![December Precipitation Aggregates](resources/decprcpdesc.png)
 
 >December Precipitation
 
