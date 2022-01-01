@@ -95,8 +95,8 @@ As seen above for December between 2010 to 2017, the precipitation has a _**aver
 
 ### Key Differences between June and December
 1. The temperature in June with _**average of 74.9 Fahrenheit**_ of is slightly higher than December with _**average of 71.04 Fahrenheit**_.
-2. The temperature in June is more warm and even _**min of 64 Fahrenheit and max of 85 Fahrenheit**_ than December which fluctuates between _**min of 56 Fahrenheit and max of 83 Fahrenheit**_. December could be colder than June at the lower temperatures due to the higher precipitation compared to June.
-3. June has an average precipitation at _**0.13 mm**_ and a maximum precipitation at _**4.43 mm**_ while December has an average precipitation at _**0.21 mm**_ and a maximum precipitation at _**6.42 mm**_. So on average December has _**0.08 mm**_ more precipitation than June. 
+2. The temperature in June is more warm and does not fluctuate with _**min of 64 Fahrenheit and max of 85 Fahrenheit**_ than December which fluctuates between _**min of 56 Fahrenheit and max of 83 Fahrenheit**_. December could be colder than June at the lower temperatures due to the higher precipitation compared to June.
+3. June has an average precipitation at _**0.13 mm**_ and a maximum precipitation at _**4.43 mm**_ while December has an average precipitation at _**0.21 mm**_ and a maximum precipitation at _**6.42 mm**_. So on average December has _**0.08 mm**_ more precipitation than June.
 
 ## Summary
 
