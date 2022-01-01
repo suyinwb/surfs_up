@@ -53,6 +53,16 @@ The "Proper" Conclusion is indicated below on [Summary](#summary)
 
 ## Analysis
 
+2 additional queries were added to get the precipitation for June and December. See the queries below.
+
+```
+june_prcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date)==6).all()
+.
+.
+.
+decprcp = session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date)==12).all()
+```
+
 >June Temperature Aggregates
 
 ![June Temperature Aggregates](resources/junetempdesc.png)
@@ -96,20 +106,18 @@ As seen above for December between 2010 to 2017, the precipitation has a _**aver
 ### Key Differences between June and December
 1. The temperature in June with _**average of 74.9 Fahrenheit**_ of is slightly higher than December with _**average of 71.04 Fahrenheit**_.
 2. The temperature in June is more warm and does not fluctuate with _**min of 64 Fahrenheit and max of 85 Fahrenheit**_ than December which fluctuates between _**min of 56 Fahrenheit and max of 83 Fahrenheit**_. December could be colder than June at the lower temperatures due to the higher precipitation compared to June.
-3. June has an average precipitation at _**0.13 mm**_ and a maximum precipitation at _**4.43 mm**_ while December has an average precipitation at _**0.21 mm**_ and a maximum precipitation at _**6.42 mm**_. So on average December has _**0.08 mm**_ more precipitation than June.
+3. June has an average precipitation at _**0.13 mm**_ and a maximum precipitation at _**4.43 mm**_ while December has an average precipitation at _**0.21 mm**_ and a maximum precipitation at _**6.42 mm**_. So on average December has _**0.08 mm**_ more precipitation than June and on maximum has _**1.99 mm**_ more precipitation than June.
 
 ## Summary
 
 ### June 2010 to 2017
-The temperature quite often between 72 to 79 Fahrenheit.
-From precipitation chart [6 Analyse For Trends](#6-analyse-for-trends), June only has light rain that rarely goes on for more than 1 hour.
+1. The temperature quite often between 72 to 79 Fahrenheit.
+2. From precipitation chart [6 Analyse For Trends](#6-analyse-for-trends), June only has light rain that rarely goes on for more than 1 hour.
 This is a comfortably warm weather with low to slight rain.
 
 ### December 2010 to 2017
-The temperature quite often between 66 to 75 Fahrenheit.
-From precipitation chart [6 Analyse For Trends](#6-analyse-for-trends), December has slightly more rain than June at an average of 2.5mm  but it is still within light rain that rarely goes on for more than 1 hour and rarely goes towards moderate rain.
+1. The temperature quite often between 66 to 75 Fahrenheit.
+2. From precipitation chart [6 Analyse For Trends](#6-analyse-for-trends), December has slightly more rain than June at an average of 2.5mm  but it is still within light rain that rarely goes on for more than 1 hour and rarely goes towards moderate rain.
 This is a comfortably warm weather with slight rain.
-
-From the analysis of temperature and precipitation in Oahu for June and December 2010 to 2017, the unusual high rain that W. Avy experienced previously is unlikely to happen again and the weather is suitable for a surf and ice cream shop business.
 
 ## Appendix
