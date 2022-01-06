@@ -46,7 +46,9 @@ Understanding precipitation:
 * Heavy rain — when the precipitation rate is > 7.6 mm (0.30 in) per hour or between 10 mm (0.39 in) and 50 mm (2.0 in) per hour
 
 #### 7. Acknowledging Limitations
-As we are only using weather data, it does not necessarily indicates that our business will be successful as Oahu, Hawaii still depends largely on tourists as customers and currently with Covid restriction, the lack of tourist customers will still impact business even if the weather is amazing.  
+As we are only using weather data, it does not necessarily indicates that our business will be successful as Oahu, Hawaii still depends largely on tourists as customers and currently with Covid restriction, the lack of tourist customers will still impact business even if the weather is amazing.
+
+I wasn't sure of the table name in sqlite file so I have used the sqlite cli command to find out (more commands here: https://sqlite.org/cli.html): sqlite3 --> .database --> .tables
 
 #### 8. Making the Call:
 The "Proper" Conclusion is indicated below on [Summary](#summary)
